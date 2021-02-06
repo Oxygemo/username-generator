@@ -24,12 +24,24 @@
                     <input type="checkbox" id="appendTheCheckbox" name="Checkbox1" value="Checkbox1Clicked" onclick="Checkbox1Clicked()">
                     <label for="Checkbox1_text">Add "The" to the beginning of your username | </label>
                     <label for="adjective_custom">Choose your Adjective group</label>
-                        <select name="adjective" id="adjective">
-                            <option value="gaming_adjective">Gaming 🎮 (fragger, gamer, gaming pro, etc)</option>
+                        <select name="adjective" id="adjective" onclick="CheckAdjectiveValue()">
+                            <option value="gaming_adjective">Gaming 🎮 (fragger, gamer, gaming, pro, etc)</option>
                             <option value="ego_adjective">Ego Booster 👈 (best, coolest, etc)</option>
                             <option value="selfsarcasm_adjective">Self Sarcastic 😢 (ugliest, worst, dumb, etc)</option>
                         </select>
+                    <label for="noun_custom">| Choose your Noun group</label>
+                        <select name="noun" id="noun" onclick="CheckNounValue()">
+                            <option value="gaming_noun">Gaming 🎮 (gamer, player, pro, etc)</option>
+                            <option value="animal_noun">Animal 🦑 (squid, cow, zebra etc)</option>
+                            <option value="selfsarcasm_noun">Self Sarcastic 😢 (idiot, knucklehead, egghead)</option>
+                        </select>
                     <br></br>
+                <h2>Let's Get You Your Username!</h2>
+                <div class="generated-username">
+                    <b><p id="GeneratedUsernameParagraph">Can't wait for you to generate a username...</p></b>
+                    <button onclick="generateUsername()">Click me to generate a username!</button>
+                </div>
+                <br></br>
             </div>
             </div>
         </div>
