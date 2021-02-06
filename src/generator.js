@@ -42,14 +42,6 @@ function generateUsername() {
     const egoBoosterAdjectives = ["Best", "Coolest", "Nicest", "Cutest", "Smartest"]
     const selfSarcasticAdjectives = ["Worst", "Dumbest", "Ugliest"]
     const gamingNoun = []
-    if (document.querySelector('#appendTheCheckbox:checked') !== null) {
-        window.Checkbox1Checked = true;
-        console.log("checkbox is ticked.")
-    }
-    else {
-        window.Checkbox1Checked = false;
-        console.log("checkbox isn't ticked.")
-    }
     console.log("Making a username!")
     console.log("Current adjective info:", window.adjectiveValue)
     switch(window.adjectiveValue) {
