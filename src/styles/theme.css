@@ -8,6 +8,12 @@ a {
     color:aquamarine;
 }
 
+img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
 .center { /* <center> tag is no longer needed and is considered useless/going to be deprecated???? so im just gonna center using css and div */
     text-align: center;
 }
