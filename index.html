@@ -10,7 +10,7 @@
         <meta property="og:description" content="Make a fancy username for your online accounts!"> <!-- Sets the description in the embed -->
     </head>
 
-    <body onload="changeFooterText()">
+    <body onload="siteLoad()">
         <script src="src/generator.js"></script>
         <div class="center">
             <h1>Odyssey346's Username Generator</h1>
@@ -21,6 +21,10 @@
                 <h2>Example of a generated username</h2>
                 <img src="src/images/Explanation_UsernameGenerator.png"></img>
                 <h2>Generator Settings</h2>
+                    <input type="checkbox" id="appendTheCheckbox" name="Checkbox1" value="Checkbox1Clicked" onclick="Checkbox1Clicked()">
+                    <label for="Checkbox1_text">Add "The" to the beginning of your username</label><br>
+                    <br></br>
+            </div>
             </div>
         </div>
         <br></br>
