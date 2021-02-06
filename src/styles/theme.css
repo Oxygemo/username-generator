@@ -1,0 +1,13 @@
+body {
+    background: rgb(20, 20, 20);
+    font-family: sans-serif;
+    color: white;
+}
+
+.center { /* <center> tag is no longer needed and is considered useless/going to be deprecated???? so im just gonna center using css and div */
+    text-align: center;
+}
+
+.border { /* this adds a nice green border around the content :D */
+    border: 5px solid #a1bd43;
+};
